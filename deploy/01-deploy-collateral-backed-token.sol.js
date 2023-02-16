@@ -7,6 +7,8 @@ module.exports = async function ({ getNamedAccounts, deployments }) {
     const { deployer } = await getNamedAccounts()
 
     log("--------------------------")
+
+    //
     const args = ["0xf9d2FA8Ef2c5F933164f2b913E39803b181B7496"]
     const collateralBackedToken = await deploy("CollateralBackedToken", {
         from: deployer,

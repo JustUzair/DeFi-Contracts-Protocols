@@ -4,6 +4,6 @@
 
 ## Frame work used : Hardhat
 
--   Collateral Backed Token (CBT) - [0x64510154a475DF6E76b519a89cf3B7488C66A66f](https://goerli.etherscan.io/address/0x64510154a475DF6E76b519a89cf3B7488C66A66f#code)
+-   Collateral Backed Token (CBT) - [0xC550b626615b95605ef83DF4E3b5E75424169409](https://goerli.etherscan.io/address/0xC550b626615b95605ef83DF4E3b5E75424169409#code)
 
     -   This contract swaps a compatible ERC20 token passed as collateral, with the contract's CBT token.
