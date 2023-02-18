@@ -9,5 +9,12 @@
     -   This contract swaps a compatible ERC20 token passed as collateral, with the contract's CBT token.
 
 -   Custom Price Feed Oracle - [0x04fB4D72356aE8f797ADE2dc3715Dc9d325957e0](https://goerli.etherscan.io/address/0x04fb4d72356ae8f797ade2dc3715dc9d325957e0#code)
+
     -   Reads the bitcoin price from the coingecko package and updates the price once on deployment.
     -   To get price of the bitcoin from the contract use the following bytes32 string [0xee62665949c883f9e0f6f002eac32e00bd59dfe6c34e92a91c37d6a8322d6489](https://goerli.etherscan.io/address/0x04fb4d72356ae8f797ade2dc3715dc9d325957e0#readContract)
+
+-   Simple Liquidity Pool - [0x27911598608Eb92e61f9223a4cAc226d0E1fAdcE](https://goerli.etherscan.io/address/0x27911598608Eb92e61f9223a4cAc226d0E1fAdcE#code)
+    -   Investors invest the underlying tokens in the liquidity pool (underlying tokens a.k.a utility token)
+    -   They get LPToken in return (Liquidity Pool Token)
+    -   They also get rewarded for investing, the reward is fixed at 1 reward per investor per block
+    -   The beneficiary gets rewarded with the governance token.
