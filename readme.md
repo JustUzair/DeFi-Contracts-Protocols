@@ -24,3 +24,5 @@
     -   Flashloan User/Consumer - [0x2E2FBaF6cd9Def956179fda6e2AABd890CdCd099](https://goerli.etherscan.io/address/0x2E2FBaF6cd9Def956179fda6e2AABd890CdCd099#code)
         -   consumes the flashloan provided by the flashloan provider
         -   simple implementation where, user gets and immediately returns the flashloans
+-   DAO - [0x814854974ECb0F432b0131619a832f0Acb838a27](https://goerli.etherscan.io/address/0x814854974ECb0F432b0131619a832f0Acb838a27#code)
+    -   DAO for accepting/rejecting the proposals through the votes from the stakeholders
