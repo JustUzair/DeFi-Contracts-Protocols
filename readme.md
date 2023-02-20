@@ -18,3 +18,9 @@
     -   They get LPToken in return (Liquidity Pool Token)
     -   They also get rewarded for investing, the reward is fixed at 1 reward per investor per block
     -   The beneficiary gets rewarded with the governance token.
+-   Flashloan
+    -   Flashloan Provider - [0x31F4f241EAf0e684D87C9500B814A04a0604df61](https://goerli.etherscan.io/address/0x31F4f241EAf0e684D87C9500B814A04a0604df61#code)
+        -   provides the flashloan to the flashloan user for the required amount
+    -   Flashloan User/Consumer - [0x2E2FBaF6cd9Def956179fda6e2AABd890CdCd099](https://goerli.etherscan.io/address/0x2E2FBaF6cd9Def956179fda6e2AABd890CdCd099#code)
+        -   consumes the flashloan provided by the flashloan provider
+        -   simple implementation where, user gets and immediately returns the flashloans
