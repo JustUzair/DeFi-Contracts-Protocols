@@ -13,7 +13,10 @@ const PRIVATE_KEY_2 = process.env.PRIVATE_KEY_2
 
 const COINMARKETCAP_API_KEY = process.env.COINMARKETCAP_API_KEY
 const GOERLI_RPC_URL = process.env.GOERLI_RPC_URL
+const SEPOLIA_RPC_URL = process.env.SEPOLIA_RPC_URL
 const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY
+const SEPOLIA_ETHERSCAN_API_KEY = process.env.SEPOLIA_ETHERSCAN_API_KEY
+
 module.exports = {
     solidity: {
         compilers: [
@@ -22,6 +25,9 @@ module.exports = {
             },
             {
                 version: "0.6.6",
+            },
+            {
+                version: "0.5.7",
             },
         ],
     },
@@ -48,6 +54,12 @@ module.exports = {
             chainId: 5,
             blockConfirmations: 6,
         },
+        sepolia: {
+            url: SEPOLIA_RPC_URL,
+            accounts: [PRIVATE_KEY, PRIVATE_KEY_2],
+            chainId: 11155111,
+            blockConfirmations: 6,
+        },
     },
     mocha: {
         timeout: 400000, // 400 seconds maximum
@@ -55,6 +67,7 @@ module.exports = {
     etherscan: {
         apiKey: {
             goerli: ETHERSCAN_API_KEY,
+            sepolia: SEPOLIA_ETHERSCAN_API_KEY,
         },
         customChains: [],
     },

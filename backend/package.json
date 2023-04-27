@@ -23,6 +23,7 @@
     "@chainlink/test-helpers": "^0.0.7-alpha",
     "@chainlink/token": "^1.1.0",
     "@pinata/sdk": "^2.1.0",
+    "@studydefi/money-legos": "^2.4.2",
     "babel-eslint": "^10.1.0",
     "coingecko-api": "^1.0.10",
     "dotenv": "^10.0.0"
